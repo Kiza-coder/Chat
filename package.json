@@ -1,0 +1,32 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "Chat-React",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "chat": "npm start --prefix chat",
+    "dev": "concurrently \"npm run server\" \"npm run chat\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kiza-coder/Chat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kiza-coder/Chat/issues"
+  },
+  "homepage": "https://github.com/Kiza-coder/Chat#readme",
+  "dependencies": {
+    "axios": "^0.19.1",
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.0.2",
+    "cors": "^2.8.5",
+    "create-react-app": "^3.3.0",
+    "express": "^4.17.1",
+    "http": "0.0.0",
+    "nodemon": "^2.0.2"
+  }
+}
